@@ -29,10 +29,35 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section className="space-y-2">
-        <h2 className="text-2xl font-semibold">Projects</h2>
-        <p className="text-gray-700"></p>
-      </section>
+      <section className="space-y-4">
+  <h2 className="text-2xl font-semibold">Projects</h2>
+
+  <div className="grid gap-4">
+
+    {/* Project 1 */}
+    <div className="border rounded-lg p-4 hover:shadow-md transition">
+      <h3 className="text-lg font-semibold">Project Name</h3>
+      <p className="text-gray-600">
+        Short description of what this project does and what you learned.
+      </p>
+      <p className="text-sm text-gray-500 mt-2">
+        Tech: Next.js, Tailwind, TypeScript
+      </p>
+    </div>
+
+    {/* Project 2 */}
+    <div className="border rounded-lg p-4 hover:shadow-md transition">
+      <h3 className="text-lg font-semibold">Another Project</h3>
+      <p className="text-gray-600">
+        Short description of another project.
+      </p>
+      <p className="text-sm text-gray-500 mt-2">
+        Tech: React, API, Node.js
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* Links */}
       <section className="space-y-2">
