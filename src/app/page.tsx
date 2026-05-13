@@ -1,35 +1,43 @@
 export default function Home() {
   return (
-    <main style={{ padding: "40px", maxWidth: "800px", margin: "0 auto" }}>
-      
-      <h1>João Francisco</h1>
-      <p>Web Developer in progress — building projects and learning daily.</p>
+    <main className="max-w-3xl mx-auto px-6 py-12 space-y-12">
 
-      <hr />
+      {/* Header */}
+      <header className="space-y-2">
+        <h1 className="text-4xl font-bold">João Francisco</h1>
+        <p className="text-gray-600">
+          Web Developer in progress — building projects and learning daily.
+        </p>
+      </header>
 
-      <section>
-        <h2>About Me</h2>
-        <p></p>
+      {/* About */}
+      <section className="space-y-2">
+        <h2 className="text-2xl font-semibold">About Me</h2>
+        <p className="text-gray-700"></p>
       </section>
 
-      <section>
-        <h2>Education</h2>
-        <p></p>
+      {/* Education */}
+      <section className="space-y-2">
+        <h2 className="text-2xl font-semibold">Education</h2>
+        <p className="text-gray-700"></p>
       </section>
 
-      <section>
-        <h2>Work</h2>
-        <p></p>
+      {/* Work */}
+      <section className="space-y-2">
+        <h2 className="text-2xl font-semibold">Work</h2>
+        <p className="text-gray-700"></p>
       </section>
 
-      <section>
-        <h2>Projects</h2>
-        <p></p>
+      {/* Projects */}
+      <section className="space-y-2">
+        <h2 className="text-2xl font-semibold">Projects</h2>
+        <p className="text-gray-700"></p>
       </section>
 
-      <section>
-        <h2>Links</h2>
-        <ul>
+      {/* Links */}
+      <section className="space-y-2">
+        <h2 className="text-2xl font-semibold">Links</h2>
+        <ul className="text-blue-600 space-y-1">
           <li>GitHub</li>
           <li>LinkedIn</li>
         </ul>
