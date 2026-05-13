@@ -6,7 +6,7 @@ export default function Home() {
       <header className="space-y-2">
         <h1 className="text-4xl font-bold">João Francisco</h1>
         <p className="text-gray-600">
-          Web Developer in progress — building projects and learning daily.
+          Web Developer in progress — building projects and learning daily.fffffffffffffffffff
         </p>
       </header>
 
