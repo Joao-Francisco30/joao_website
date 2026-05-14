@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 space-y-12">
 
-      <nav className="flex gap-6 text-sm text-gray-400 sticky top-0 bg-white py-4 border-b mb-8">
+      <nav className="flex gap-6 text-sm font-medium text-gray-400 sticky top-0 bg-zinc-950/80 backdrop-blur-sm py-4 border-b border-gray-800 mb-8">
         <a href="#about" className="hover:text-white transition">
           About
         </a>
