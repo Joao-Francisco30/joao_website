@@ -82,12 +82,37 @@ export default function Home() {
       </section>
 
       {/* Links */}
-      <section id="links" className="space-y-2">
+      <section id="links" className="space-y-4">
         <h2 className="text-2xl font-semibold">Links</h2>
-        <ul className="text-blue-600 space-y-1">
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-        </ul>
+
+        <div className="flex flex-wrap gap-4">
+
+          <a
+            href="https://github.com/YOUR_USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-800 px-4 py-2 rounded-lg hover:border-gray-500 transition"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-800 px-4 py-2 rounded-lg hover:border-gray-500 transition"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="mailto:jfsimoes30@outlook.pt"
+            className="border border-gray-800 px-4 py-2 rounded-lg hover:border-gray-500 transition"
+          >
+            Email
+          </a>
+
+        </div>
       </section>
 
     </main>
