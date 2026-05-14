@@ -2,34 +2,56 @@ export default function Home() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 space-y-12">
 
+    <nav className="flex gap-6 text-sm text-gray-600 sticky top-0 bg-white py-4 border-b mb-8">
+  <a href="#about" className="hover:text-black transition">
+    About
+  </a>
+
+  <a href="#education" className="hover:text-black transition">
+    Education
+  </a>
+
+  <a href="#work" className="hover:text-black transition">
+    Work
+  </a>
+
+  <a href="#projects" className="hover:text-black transition">
+    Projects
+  </a>
+
+  <a href="#links" className="hover:text-black transition">
+    Links
+  </a>
+</nav>
+
       {/* Header */}
       <header className="space-y-2">
         <h1 className="text-4xl font-bold">João Francisco</h1>
         <p className="text-gray-600">
-          Web Developer in progress — building projects and learning daily.fffffffffffffffffff
+          Web Developer in progress — building projects and learning daily.
         </p>
       </header>
 
       {/* About */}
-      <section className="space-y-2">
+      <section id="about" className="space-y-2">
         <h2 className="text-2xl font-semibold">About Me</h2>
         <p className="text-gray-700"></p>
       </section>
 
       {/* Education */}
-      <section className="space-y-2">
+      <section id="education" className="space-y-2">
         <h2 className="text-2xl font-semibold">Education</h2>
         <p className="text-gray-700"></p>
       </section>
 
       {/* Work */}
-      <section className="space-y-2">
+      <section id="work" className="space-y-2">
         <h2 className="text-2xl font-semibold">Work</h2>
         <p className="text-gray-700"></p>
       </section>
 
       {/* Projects */}
-      <section className="space-y-4">
+      <section id="projects" className="space-y-4">
   <h2 className="text-2xl font-semibold">Projects</h2>
 
   <div className="grid gap-4">
@@ -60,7 +82,7 @@ export default function Home() {
 </section>
 
       {/* Links */}
-      <section className="space-y-2">
+      <section id="links" className="space-y-2">
         <h2 className="text-2xl font-semibold">Links</h2>
         <ul className="text-blue-600 space-y-1">
           <li>GitHub</li>
