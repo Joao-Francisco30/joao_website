@@ -1,33 +1,8 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 space-y-12">
-
-      <nav className="flex gap-6 text-sm font-medium text-gray-400 sticky top-0 bg-zinc-950/80 backdrop-blur-sm py-4 border-b border-gray-800 mb-8">
-        <a href="#about" className="hover:text-white transition">
-          About
-        </a>
-
-        <a href="#education" className="hover:text-white transition">
-          Education
-        </a>
-
-        <a href="#work" className="hover:text-white transition">
-          Work
-        </a>
-
-        <a href="#projects" className="hover:text-white transition">
-          Projects
-        </a>
-
-        <a href="#skills" className="hover:text-white transition">
-          Skills
-        </a>
-
-        <a href="#links" className="hover:text-white transition">
-          Links
-        </a>
-      </nav>
-
       {/* Header */}
       <header className="space-y-2">
         <h1 className="text-4xl font-bold">João Francisco</h1>
@@ -65,7 +40,7 @@ export default function Home() {
 
         <div className="border border-gray-800 rounded-lg p-4">
           <h3 className="text-lg font-semibold">
-            Bachelor's Degree in Computer Engineering
+            Bachelor&apos;s Degree in Computer Engineering
           </h3>
 
           <p className="text-gray-400 mt-1">
@@ -149,6 +124,13 @@ export default function Home() {
             <p className="text-sm text-gray-500 mt-4">
               Tech: Next.js · TypeScript · Python · PostgreSQL · Prisma · REST API · Git
             </p>
+
+            <Link
+              href="/football"
+              className="inline-block mt-4 text-sm font-medium text-white hover:underline"
+            >
+              View the dashboard →
+            </Link>
           </div>
 
         </div>
@@ -197,7 +179,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/joão-francisco-98a54a272/"
+            href="https://www.linkedin.com/in/jo%C3%A3o-francisco-98a54a272/"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-gray-800 px-4 py-2 rounded-lg hover:border-gray-500 transition"

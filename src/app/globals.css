@@ -7,6 +7,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* keeps section headings clear of the sticky nav when jumping to #anchors */
+  scroll-padding-top: 4.5rem;
 }
 
 body {
